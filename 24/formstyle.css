@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("alfons-morales-YLSwjSy7stw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*min-height: 150vh;*/
+
+}
+
+.container {
+    background: url("brennan-ehrhardt-HALe2SmkWAI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px black;
+    width: 450px;
+    padding: 40px;
+}
+
+.container .h1 {
+    color: white;
+    text-align: center;
+}
+
+form > input {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.text{
+    color: white;
+}
+
+.submit {
+    border-radius: 10px 7px;
+    color: darkred;
+    justify-content: right;
+    align-items: center;
+}
